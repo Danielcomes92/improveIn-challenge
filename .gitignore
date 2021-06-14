@@ -1,0 +1,6 @@
+# dependencies
+frontend/node_modules
+/node_modules
+
+
+# in this case it will disabled in order to let ImproveIn see the full project  .env

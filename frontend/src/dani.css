@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+}
+
+.mainAuthContainer {
+  flex: 1;
+  background-image: url('https://i.imgur.com/Sm6NJ6y.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainHomeContainer {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#132750, #03091b);
+  overflow: hidden;
+}
+
+.accessContainer {
+  width: 500px;
+  height: 450px;
+  background-color: #0009;
+}
+
+.header {
+  height: 14vh;
+  background-color: #0009;
+  display: flex;
+  align-items: center;
+}
+
+.innerHeaderContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.inputSearch {
+  background-color: #c4c4c4;
+  flex: 1;
+  border-radius: 2px;
+}
+
+.filtersContainer {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.innerFiltersContainer {
+  background-color: #c4c4c4;
+  width: 150px;
+  border-radius: 2px;
+}
+
+.cardsContainer {
+  width: 85%;
+  margin: 8vh auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cardItemContainer {
+  background-color: #8891af;
+  width: 20%;
+  height: 250px;
+  margin: 12px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 13px 0px rgba(80, 80, 80, 0.2);
+  -webkit-box-shadow: 1px 2px 13px 0px rgba(82, 82, 82, 0.2);
+  -moz-box-shadow: 1px 2px 13px 0px rgba(85, 85, 85, 0.2);
+}
+
+.cardItemContainer:hover {
+  background-color: #768cd4;
+  box-shadow: 1px 2px 13px 0px rgba(199, 199, 199, 0.2);
+  -webkit-box-shadow: 1px 2px 13px 0px rgba(202, 202, 202, 0.2);
+  -moz-box-shadow: 1px 2px 13px 0px rgba(201, 201, 201, 0.2);
+}
+
+.topCardContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  height: 90%;
+}
+
+.genre {
+  background-color: rgb(4, 8, 19);
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.nameBand {
+  font-weight: bold;
+}
+
+.midContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnAlbums {
+  cursor: pointer;
+  padding: 10px;
+  width: 80px;
+  height: 10px;
+  margin: 0 auto;
+  background-color: #03091b;
+  border-radius: 2.5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnLogout {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.eye{
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  cursor: pointer;
+}
+
+div.containerPassword{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerForm{
+  width: 100%;
+}
+
+.containerFormAndTitle, .containerFormAndTitle form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerFormAndTitle h1{
+  margin-bottom: 15px;
+  color: white;
+}
+
+.containerFormAndTitle form {
+  justify-content: space-between;
+}
+
+.containerPassword, .input{
+  width: 70%;
+}
+
+.input{
+  height: 30px;
+}
+
+.containerPassword .input{
+  width: 100%;
+}
+
+.containerTextForm span{
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.containerTextForm {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.error{
+  color: red;
+  font-size: .75rem;
+}
+
+.containerError {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btnAction {
+  background-color: #8891af;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 8px;
+  width: 75px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.btnAction:hover {
+  background-color: #6b79a8;;
+}
